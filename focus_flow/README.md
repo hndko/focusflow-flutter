@@ -1,16 +1,46 @@
-# focus_flow
+# FocusFlow - Task Manager
 
-A new Flutter project.
+A clean, efficient task management application built with Flutter.
 
-## Getting Started
+![FocusFlow](https://via.placeholder.com/800x400?text=FocusFlow+Banner)
 
-This project is a starting point for a Flutter application.
+## 🚀 Key Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Task Management (CRUD):** Add, view, complete, and delete tasks.
+- **Swipe-to-Delete:** Intuitive gesture to remove tasks.
+- **Local Persistence:** Data is saved locally using `shared_preferences`, so you never lose your tasks.
+- **State Management:** Powered by `Provider` for efficient state updates.
+- **Responsive UI:** Clean interface with empty state illustrations.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Technology Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Framework:** Flutter
+- **Language:** Dart
+- **State Management:** Provider
+- **Local Storage:** Shared Preferences
+- **Utilities:** UUID, Intl, Google Fonts
+
+## 📸 Screenshots
+
+| Home Screen (Empty) |     Task List      |      Add Task      |
+| :-----------------: | :----------------: | :----------------: |
+| _(Add Screenshot)_  | _(Add Screenshot)_ | _(Add Screenshot)_ |
+
+## 📦 Installation
+
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/focusflow.git
+    ```
+2.  Navigate to the project directory:
+    ```bash
+    cd focusflow
+    ```
+3.  Install dependencies:
+    ```bash
+    flutter pub get
+    ```
+4.  Run the app:
+    ```bash
+    flutter run
+    ```
